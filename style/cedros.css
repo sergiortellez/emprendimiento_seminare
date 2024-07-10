@@ -1,0 +1,975 @@
+/************************************** propiedades en  iphone **************************************/
+
+@media (max-width: 480px) {}
+
+
+/************************************* propiedades en Desktop    *******************************************/
+
+
+/*clases en general*/
+
+html,
+body {
+    overflow-x: hidden;
+    min-height: 100vh
+}
+
+.body-cedros {
+    background-color: #eeeeee;
+    color: #808180;
+    font-size: 18px;
+    text-align: justify;
+}
+
+
+/*Clases de reglamento.html*/
+
+.header-legal {
+    background-color: #626366;
+    color: #ffffff;
+    font-size: 7vmin;
+}
+
+.back-legal {
+    height: 40px;
+    position: relative;
+    top: 30px;
+}
+
+.text-container-legal {
+    padding: 4% 8%;
+    font-size: 18px;
+}
+
+
+/*Fin de clases reglamento.html*/
+
+
+/*se aplica a los títulos de cada sección iphone friendly*/
+
+.text-title-var {
+    font-size: 4hw;
+    font-size-adjust: auto;
+    padding: 3%;
+    text-align: left;
+    margin-top: 2%
+}
+
+
+/*************************************************empiezan las clases del footer**********************************************/
+
+.footer {
+    height: auto;
+    background-color: #333333;
+}
+
+.logo-huin-footer {
+    height: 90px;
+    margin-top: 2vmin;
+}
+
+.row-footer {
+    padding-top: 53px;
+    padding-bottom: 25px;
+}
+
+.text-withe-footer {
+    color: #ffffff;
+    font-size: 25px;
+    padding-left: 20px;
+}
+
+.ul-footer {
+    color: #5b5a4f;
+    padding-top: 20px;
+}
+
+.ul-footer-a {
+    color: #5b5a4f;
+    cursor: pointer;
+    cursor: hand;
+}
+
+.wrap {
+    /*controla la altura total del contenendor para que el footer no se acorte si hay poco texto*/
+    min-height: 100vh;
+    height: auto;
+    /* margen negativo para que quepa el footer  */
+    margin-bottom: -203px;
+    /* Pad bottom by footer height */
+    padding-bottom: 203px;
+}
+
+.logo-cedros-footer {
+    /*tamaño de los logos*/
+    height: 100px;
+    margin-top: 2vmin;
+    /*espacio entre los logos*/
+}
+
+
+/************************************************* empiezan clases de direccion.html ****************************************/
+
+
+/*títulos*/
+
+.titulo-dir {
+    margin-top: 2%;
+}
+
+.content-dir {
+    padding: 3%;
+}
+
+
+/*.text-title-dir {
+    font-size: 30px;
+}*/
+
+.qte-dir {
+    text-align: center;
+    font-style: italic;
+    font-size: 2vw;
+    padding-bottom: 6%;
+    padding-top: 8%;
+}
+
+.lista-dir {
+    list-style: none;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.aleta-dir {
+    display: inline;
+    margin-right: 0.5%
+}
+
+
+/*tecnica para hacer un background transparente tomada de https://scotch.io/tutorials/how-to-change-a-css-background-images-opacity */
+
+
+/*.image-container:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 1;
+    background-image: url('/assets/images/logo_shark_final_trasn.png');
+    background-repeat: no-repeat;
+    background-position: 50% 30%;
+}*/
+
+.space-image-dir {
+    padding: 30px;
+}
+
+.bold-list-dir {
+    font-size: 19px;
+}
+
+.izq-table-dir {
+    background-color: #cccc9d;
+    color: #689a99;
+    margin: 0px;
+    padding: 1.2%;
+    min-height: 527px;
+}
+
+.der-table-dir {
+    min-height: 527px;
+    background-color: #689a99;
+    color: #cccc9d;
+    margin: 0px;
+    padding: 1.2%;
+}
+
+.li-dir {
+    padding: 1%;
+}
+
+.yellow-dir {
+    background-color: darkgoldenrod;
+}
+
+.one-dir {
+    background-color: #111111;
+    color: #ffffff;
+    padding: 1%;
+    margin-top: 1%;
+}
+
+.two-dir {
+    background-color: #333333;
+    color: #ffffff;
+    padding: 1%;
+    margin-top: 1%;
+}
+
+.three-dir {
+    background-color: #555555;
+    color: #ffffff;
+    padding: 1%;
+    margin-top: 1%
+}
+
+.four-dir {
+    background-color: #777777;
+    color: #ffffff;
+    padding: 1%;
+    margin-top: 1%
+}
+
+.five-dir {
+    background-color: #999999;
+    color: #ffffff;
+    padding: 1%;
+    margin-top: 1%
+}
+
+.font-table-dir {
+    font-size: 2vw;
+}
+
+.table-title-dir {
+    border-bottom: 2px solid gray;
+}
+
+.title-space-dir {
+    padding: 0px;
+    margin-bottom: 0px;
+    color: inherit;
+    background: url("../assets/images/parallax-dir.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.spec-dir {
+    font-weight: 100;
+}
+
+.content-dir-esp {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.cita-texto {
+    text-align: right;
+    font-weight: 200;
+}
+
+.qte {
+    padding: 4%
+}
+
+.background-shark-dir {
+    background-image: url('/assets/images/logo_shark_final_trasn.png');
+    background-repeat: no-repeat;
+    background-position: 50% 30%;
+}
+
+
+/*Terminan las clases de la página de la dirección.*/
+
+
+/****************************************empiezan las clases para los DCP's******************************************/
+
+.navbar-text {
+    font-size: 16px;
+    padding-left: 0px;
+    font-weight: 500;
+}
+
+.text-center {
+    text-align: center;
+}
+
+
+/*Inicia CSS para las cards*/
+
+
+/* entire container, keeps perspective */
+
+
+}
+
+.card-container {
+    -webkit-perspective: 800px;
+    -moz-perspective: 800px;
+    -o-perspective: 800px;
+    perspective: 800px;
+    margin-bottom: 30px;
+}
+
+/* flip the pane when hovered */
+.card-container:not(.manual-flip):hover .card,
+.card-container.hover.manual-flip .card {
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+    white-space: normal;
+}
+
+.card-container.static:hover .card,
+.card-container.static.hover .card {
+    -webkit-transform: none;
+    -moz-transform: none;
+    -o-transform: none;
+    transform: none;
+}
+
+/* flip speed goes here */
+.card {
+    -webkit-transition: -webkit-transform .5s;
+    -moz-transition: -moz-transform .5s;
+    -o-transition: -o-transform .5s;
+    transition: transform .5s;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    position: relative;
+}
+
+/* hide back of pane during swap */
+.front,
+.back {
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
+    backface-visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(232, 191, 0, 0.7);
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.14);
+}
+
+/* front pane, placed above back */
+.front {
+    z-index: 2;
+}
+
+/* back, initially hidden pane */
+.back {
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+    z-index: 3;
+}
+
+.back .btn-simple {
+    position: absolute;
+    left: 0;
+    bottom: 4px;
+}
+
+/*        Style       */
+.card {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-radius: 4px;
+    color: #444444;
+}
+
+.card-container,
+.front,
+.back {
+    width: 100%;
+    height: 420px;
+    max-width: 360px;
+    border-radius: 4px;
+}
+
+.card .cover {
+    height: 150px;
+    overflow: hidden;
+    border-radius: 4px 4px 0 0;
+}
+
+.card .cover img {
+    width: 100%;
+}
+
+.card .user {
+    border-radius: 50%;
+    display: block;
+    height: 120px;
+    margin: -55px auto 0;
+    overflow: hidden;
+    width: 120px;
+}
+
+.card .user img {
+    /*background: none repeat scroll 0 0 #FFFFFF;*/
+
+    background-color: #eecd7e;
+    border: 3px solid #FFFFFF;
+    width: 100%;
+    padding: 10px;
+}
+
+.card .content {
+    box-shadow: none;
+    padding: 10px 20px 20px;
+}
+
+.card .content .main {
+    min-height: 160px;
+}
+
+.card .back .content .main {
+    height: 215px;
+}
+
+/*       Fix bug for IE      */
+@media screen and (-ms-high-contrast: active),
+(-ms-high-contrast: none) {
+
+    .front,
+    .back {
+        -ms-backface-visibility: visible;
+        backface-visibility: visible;
+    }
+
+    .back {
+        visibility: hidden;
+        -ms-transition: all 0.2s cubic-bezier(.92, .01, .83, .67);
+    }
+
+    .front {
+        z-index: 4;
+    }
+
+    .card-container:not(.manual-flip):hover .back,
+    .card-container.manual-flip.hover .back {
+        z-index: 5;
+        visibility: visible;
+    }
+}
+
+/*Fin clases para las cards*/
+
+/*barras de título parallax*/
+.title-space-primero {
+    padding: 0px;
+    margin-bottom: 0px;
+    color: inherit;
+    background: url("../assets/images/primero.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 25vmax;
+}
+
+.title-space-segundo {
+    padding: 0px;
+    margin-bottom: 0px;
+    color: inherit;
+    background: url("../assets/images/segundo.jpg") no-repeat center center fixed;
+    / -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 25vmax;
+}
+
+.title-space-tercero {
+    padding: 0px;
+    margin-bottom: 0px;
+    color: inherit;
+    background: url("../assets/images/tercero.jpg") no-repeat center center fixed;
+    / -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 25vmax;
+}
+
+.screen-read {
+    position: relative;
+    top: 20%;
+}
+
+.title_white {
+    color: #ffffff;
+    font-size: 6vmax;
+    text-align: center;
+}
+
+/*fin de las barras de título parallax*/
+.custom-height {
+    padding-top: 120px;
+}
+
+.pagination>li>a {
+    text-align: center;
+    /* width: 40px;
+ height: 40px;*/
+
+    color: #ffffff;
+    margin-left: 3px;
+    -webkit-clip-path: polygon(75% 0%, 85% 51%, 75% 100%, 0% 100%, 13% 49%, 0% 0%);
+    clip-path: polygon(75% 0%, 85% 51%, 75% 100%, 0% 100%, 13% 49%, 0% 0%);
+}
+
+.nav-primero>li>a {
+    background-color: rgba(204, 204, 29, 0.7);
+}
+
+.nav-segundo>li>a {
+    background-color: rgba(7, 69, 7, 0.7);
+}
+
+.nav-tercero>li>a {
+    background-color: rgba(12, 73, 155, 0.7);
+}
+
+.pagination>li>a:hover {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.navbar-default {
+    background-color: #ededed;
+}
+
+.title-dcp {
+    font-size: 5vw;
+}
+
+.subtitle-dcp {
+    font-size: 3vw;
+    font-weight: 100;
+}
+
+.objetivo-dcp {
+    font-size: 3vmax;
+    float: left;
+    padding-right: 10px;
+}
+
+.wrap-image {
+    padding-top: 0.5vmax;
+    float: left;
+    width: 3vmax;
+    padding-bottom: 0px;
+    margin-right: 8px;
+}
+
+.content-dcp {
+    padding: 2vmax 5vmax;
+}
+
+.custom-nav-colapsed {
+    margin-top: 20px;
+}
+
+.navbar-brand {
+    padding-right: 0px;
+}
+
+.animate {
+    display: inline-block;
+}
+
+.verbo {
+    font-size: 22px;
+    color: #ff0000;
+    display: inline-block;
+}
+
+.concepto {
+    font-size: 26px;
+    color: #177fce;
+    display: inline-block;
+}
+
+.resaltado {
+    font-size: 28px;
+    color: #009900;
+    display: inline-block;
+}
+
+.importante {
+    background-color: rgba(166, 27, 27, 0.83);
+    width: 100%;
+    color: #ffffff;
+    padding: 1vmax;
+    font-size: 15px;
+}
+
+.importante-container {
+    padding: 0px;
+}
+
+.tip {
+    background-color: rgba(232, 191, 0, 0.7);
+    width: 100%;
+    color: #000000;
+    padding: 1vmax;
+    font-size: 15px;
+}
+
+.importante-dcp {
+    font-size: 3vmax;
+    float: left;
+    padding-right: 10px;
+    color: #eecd56;
+}
+
+.tip-dcp {
+    font-size: 3vmax;
+    float: left;
+    padding-right: 10px;
+    color: #ffffff;
+}
+
+.title_black {
+    color: #ffffff;
+    font-size: 5vmin;
+    max-width: 80%;
+}
+
+.screen-read-withe {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.centrar-imagen {
+    padding: 3%;
+}
+
+.wrap-image-lit {
+    padding-top: 0.5vmax;
+    float: left;
+    width: 30vmax;
+    padding-bottom: 0px;
+    margin-right: 8px;
+}
+
+.checkbox-dcp {
+    width: 2vmax;
+    height: 2vmax;
+    margin-bottom: 8px;
+    margin-right: 20px;
+}
+
+.dcp-list {
+    list-style: none;
+}
+
+.card-front-text {
+    font-size: 60px;
+    padding: 20px;
+    color: #000000;
+    display: block;
+}
+
+.image-tip-card {
+    padding: 5px;
+    height: 30px;
+    width: 30px;
+    margin-top: 3px;
+}
+
+.btn {
+    white-space: normal;
+}
+
+.image-bug {
+    float: left;
+    width: 100px;
+    display: inline;
+    margin-right: 1vmin;
+}
+
+.bugs {
+    border-top: solid 1px rgba(91, 90, 79, 0.33);
+}
+
+.image-question {
+    float: left;
+    width: 80px;
+    display: inline;
+    margin-right: 2vmin;
+}
+
+.reglamento-titulo {
+    font-size: 7vmin;
+    margin-top: 3vmin;
+}
+
+.line_form {
+    padding: 2%;
+}
+
+.form-place {
+    width: 85%;
+    height: 120%;
+    border: none;
+    padding: 1%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.form-text {
+    width: 85%;
+    height: 900%;
+    border: none;
+    padding: 1%;
+}
+
+.grupo-form {
+    margin-right: 2%;
+}
+
+.grupo-form-2 {
+    margin: 2%;
+}
+
+.line_form_2 {
+    padding-left: 4%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.p-form {
+    padding: 5%;
+}
+
+.line_form_3 {
+    padding-left: 4%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.image-question-2 {
+    float: left;
+    width: 10vmin;
+    display: inline;
+    margin-right: 2vmin;
+    margin-top: 2vmin;
+}
+
+.image-bug-2 {
+    float: left;
+    width: 10vmin;
+    display: inline;
+    margin-right: 1vmin;
+    margin-top: 3vmin;
+}
+
+.text-thnx {
+    padding: 2%;
+    font-size: 7vmin;
+}
+
+.padding5 {
+    padding: 5%;
+}
+
+.padding3 {
+    padding: 3%;
+}
+
+.with100 {
+    width: 100%;
+}
+
+.width100 {
+    width: 100%;
+}
+
+.float-left {
+    float: left;
+}
+
+.padding2 {
+    padding: 2%;
+}
+
+.padding1 {
+    padding: 1%;
+}
+
+.padding-col {
+    padding: 0 3%;
+}
+
+.sabias-bra {
+    font-size: 4vmin;
+    color: #0a1052;
+}
+
+.sabias-txt {
+    font-size: 3vmin;
+    color: dimgrey;
+}
+
+#brackets {
+    width: 5vmin;
+    margin-bottom: 1vmin;
+}
+
+.withmax {
+    max-width: ;
+}
+
+.padding4 {
+    padding: 4%;
+}
+
+.pleca-segundo {
+    width: 12vw;
+    height: 25vmax;
+    background-color: rgba(0, 139, 0, 0.49);
+    display: inline-block;
+    z-index: 2;
+}
+
+.pleca-pos {
+    position: relative;
+    left: 10%;
+}
+
+.pleca-circulo {
+    background-color: #ffffff;
+    color: #000000;
+    width: 6vmax;
+    height: 6vmax;
+    border-radius: 50%;
+    position: relative;
+    top: 30%;
+    /*    left: 20%;*/
+}
+
+.texto-circulo {
+    background-color: #ffffff;
+    color: #000000;
+    width: 9vmin;
+    height: 9vmin;
+    border-radius: 50%;
+    font-size: 6vmin;
+    position: relative;
+    left: 0%;
+    bottom: 10%;
+}
+
+.pos-titulo {
+    margin-top: 10%;
+}
+
+.navbar-text-segundo {
+    font-weight: 500;
+    font-size: 16px;
+    padding-left: 0px;
+    color: darkgreen !important;
+}
+
+.fondo-texto-primero {
+    width: 100%;
+    padding: 2%;
+}
+
+.background-segundo {
+    height: 100%;
+    background: -webkit-linear-gradient(left, rgb(7, 69, 7), rgba(7, 69, 7, 0));
+    /* For Safari 5.1 to 6.0 */
+
+    background: -o-linear-gradient(right, rgba(7, 69, 7, 1), rgba(7, 69, 7, 0));
+    /* For Opera 11.1 to 12.0 */
+
+    background: -moz-linear-gradient(right, rgba(7, 69, 7, 1), rgba(7, 69, 7, 0));
+    /* For Firefox 3.6 to 15 */
+
+    background: linear-gradient(to right, rgba(7, 69, 7, 1), rgba(7, 69, 7, 0));
+    /* Standard syntax (must be last) */
+
+    padding: 4%;
+}
+
+.altura-parallax-titulo {
+    height: 100%;
+}
+
+.scroll-adjust {
+    display: block;
+    position: relative;
+    top: -75px;
+    visibility: hidden;
+}
+
+.navbar-text-primero {
+    font-weight: 500;
+    font-size: 16px;
+    padding-left: 0px;
+    color: rgba(204, 204, 29, 0.97) !important;
+}
+
+.background-primero {
+    height: 100%;
+    background: -webkit-linear-gradient(left, rgb(180, 180, 57), rgba(180, 180, 57, 0));
+    /* For Safari 5.1 to 6.0 */
+
+    background: -o-linear-gradient(right, rgba(180, 180, 57, 1), rgba(180, 180, 57, 0));
+    /* For Opera 11.1 to 12.0 */
+
+    background: -moz-linear-gradient(right, rgba(180, 180, 57, 1), rgba(180, 180, 57, 0));
+    /* For Firefox 3.6 to 15 */
+
+    background: linear-gradient(to right, rgba(180, 180, 57, 1), rgba(180, 180, 57, 0));
+    /* Standard syntax (must be last) */
+
+    padding: 4%;
+}
+
+.background-tercero {
+    height: 100%;
+    background: -webkit-linear-gradient(left, rgb(15, 91, 242), rgba(15, 91, 242, 0));
+    /* For Safari 5.1 to 6.0 */
+
+    background: -o-linear-gradient(right, rgba(15, 91, 242, 1), rgba(15, 91, 242, 0));
+    /* For Opera 11.1 to 12.0 */
+
+    background: -moz-linear-gradient(right, rgba(15, 91, 242, 1), rgba(15, 91, 242, 0));
+    /* For Firefox 3.6 to 15 */
+
+    background: linear-gradient(to right, rgba(15, 91, 242, 1), rgba(15, 91, 242, 0));
+    /* Standard syntax (must be last) */
+
+    padding: 4%;
+}
+
+.navbar-text-tercero {
+    font-weight: 500;
+    font-size: 16px;
+    padding-left: 0px;
+    color: darkblue !important;
+}
+
+.title-space-wf {
+    padding: 0px;
+    margin-bottom: 0px;
+    color: inherit;
+    background: url("../assets/images/flags.jpg") no-repeat center center fixed;
+    / -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 25vmax;
+}
+
+.img-brand {
+    width: 60px;
+    height: auto;
+}

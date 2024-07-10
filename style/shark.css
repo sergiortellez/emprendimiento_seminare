@@ -1,0 +1,674 @@
+html {
+    font-size: 16px;
+}
+
+.body {
+    background-color: #fff;
+
+
+
+
+}
+
+.container-fluid {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+
+/*inician clase para defaults en iphone iphone*/
+
+
+/*alturas grids*/
+
+.iphone-height {
+    height: 17vh;
+}
+
+
+/*tamaño íconos*/
+
+.icon-small {
+    width: 5rem;
+    height: 5rem;
+}
+
+.icon-big {
+    width: 5rem;
+    height: 5rem;
+}
+
+.icon-small-rectangle {
+    width: 5rem;
+    height: 3rem;
+    margin-bottom: 1rem;
+}
+
+
+/*tamaño nombres*/
+
+.name-button {
+    padding: 2%;
+    text-align: center;
+    color: #ffffff;
+    font-size: 3rem;
+    font-weight: 200;
+}
+
+.name-button-long {
+    padding: 2%;
+    text-align: left;
+    color: #ffffff;
+    font-size: 2.5rem;
+    font-weight: 200;
+}
+
+.name-button-small {
+    padding: 2%;
+    text-align: left;
+    color: #ffffff;
+    font-size: 3rem;
+    font-weight: 200;
+}
+
+.name-button-mid {
+    padding: 2%;
+    text-align: left;
+    color: #ffffff;
+    font-size: 3rem;
+    font-weight: 200;
+}
+
+
+/*fin de la clase para defaults iphone*/
+
+
+/*clases botones principales*/
+
+.img-button-help {
+    width: 100%;
+    height: inherit;
+    cursor: help;
+    justify-content: flex-start;
+}
+
+.img-button {
+    width: 100%;
+    height: inherit;
+    cursor: pointer;
+    justify-content: flex-start;
+}
+
+.img-button-hor {
+    width: 100%;
+    height: inherit;
+    cursor: pointer;
+    justify-content: flex-start;
+}
+
+
+/*fin clases botones principales*/
+
+
+/*************************************************
+**************   Media Querys   ******************
+************************************************+*/
+
+
+/*Extra small devices (portrait phones, less than 576px) 
+No media query since this is the default in Bootstrap*/
+
+
+/*Small devices (landscape phones, 576px and up)*/
+
+@media (min-width: 576px) {
+    html {
+        font-size: 16px;
+    }
+
+    /* inician alturas del grid para todos los demás dispositivos.*/
+    .grid-item-content--height2 {
+        height: 24vh !important;
+    }
+
+    .grid-item-content--height3 {
+        height: 24vh !important;
+    }
+
+    .grid-item-content--height1 {
+        height: 24vh !important;
+    }
+
+    .grid-item-content--height1-adjust {
+        height: 24vh !important;
+    }
+
+    .iphone-height {
+        height: 26vh;
+    }
+
+    /* fin alturas del grid para todos los demás dispositivos.*/
+}
+
+
+/*Medium devices (tablets, 768px and up)*/
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+
+    /* inician alturas del grid para todos los demás dispositivos.*/
+    .grid-item-content--height2 {
+        height: 28vh !important;
+    }
+
+    .grid-item-content--height3 {
+        height: 41.9vh !important;
+    }
+
+    .grid-item-content--height100 {
+        height: 99.5vh !important;
+        background: none;
+        border-radius: 0px;
+        overflow: scroll;
+    }
+
+    .grid-item-content--height1 {
+        height: 14vh !important;
+    }
+
+    .grid-item-content--height1-adjust {
+        height: 13.4vh !important;
+    }
+
+    /* fin alturas del grid para todos los demás dispositivos.*/
+    /*Tamaños íconos para el resto de los dispositivos.*/
+    icon-big {
+        width: 5rem;
+        height: 5rem;
+    }
+
+    .icon-small {
+        width: 3rem !important;
+        height: 3rem !important;
+    }
+
+    .icon-small-rectangle {
+        width: 2.5rem !important;
+        height: 1.5rem !important;
+        margin-bottom: 1rem;
+        margin-right: 0.5rem;
+    }
+
+    /*fin tamaño íconos para el resto de los dispositivos*/
+    /*tamaños nombres*/
+    .name-button {
+        padding: 2%;
+        text-align: center;
+        color: #ffffff;
+        font-size: 1.6rem;
+        font-weight: 200;
+    }
+
+    .name-button-long {
+        padding: 2%;
+        text-align: left;
+        color: #ffffff;
+        font-size: 1.6rem;
+        font-weight: 200;
+    }
+
+    .name-button-small {
+        padding: 2%;
+        text-align: left;
+        color: #ffffff;
+        font-size: 3rem;
+        font-weight: 200;
+    }
+
+    .name-button-mid {
+        padding: 2%;
+        text-align: left;
+        color: #ffffff;
+        font-size: 3rem;
+        font-weight: 200;
+        margin-left: 1rem;
+    }
+
+    /*fin tamaños nombres*/
+    /*inician animaciones que sólo ocurren en ipad y superior*/
+    /*imagen*/
+    .zoom {
+        position: relative;
+        border: none;
+        overflow: hidden;
+    }
+
+    .zoom img {
+        max-width: 100%;
+        -moz-transition: all 0.3s;
+        -webkit-transition: all 0.3s;
+        transition: all 0.3s;
+    }
+
+    .zoom:hover img {
+        -moz-transform: scale(1.3);
+        -webkit-transform: scale(1.3);
+        transform: scale(1.3);
+    }
+
+    .zoom-peq img {
+        max-width: 100%;
+        -moz-transition: all 0.3s;
+        -webkit-transition: all 0.3s;
+        transition: all 0.3s;
+    }
+
+    .zoom-peq:hover img {
+        -moz-transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+
+    /*texto*/
+    /*    tamaño regular   */
+    .boton-anim {
+        -webkit-transition: all .3s;
+        transition: all .3s;
+    }
+
+    .boton-anim:hover {
+        -moz-transform: scale(0.97);
+        -webkit-transform: scale(0.97);
+        transform: scale(0.97);
+    }
+
+    .boton-anim>a>p {
+        -webkit-transition: all .3s;
+        transition: all .3s;
+    }
+
+    .boton-anim:hover>a>p {
+        -moz-transform: translateY(1rem);
+        -webkit-transform: translateY(1rem);
+        transform: translateY(1rem);
+    }
+
+    /*    tamaño mini */
+    .boton-anim-min:hover {
+        -moz-transform: scale(0.95);
+        -webkit-transform: scale(0.95);
+        transform: scale(0.95);
+    }
+
+    .boton-anim-min {
+        -webkit-transition: all .3s;
+        transition: all .3s;
+    }
+
+    .boton-anim-min>a>p {
+        -webkit-transition: all .3s;
+        transition: all .3s;
+    }
+
+    .boton-anim-min:hover>a>p {
+        -moz-transform: scale(0.7);
+        -webkit-transform: scale(0.7);
+        transform: translateY(0.7);
+    }
+
+    /*  con modal  */
+    .boton-anim-mod:hover {
+        -moz-transform: scale(0.95);
+        -webkit-transform: scale(0.95);
+        transform: scale(0.95);
+    }
+
+    .boton-anim-mod {
+        -webkit-transition: all .3s;
+        transition: all .3s;
+    }
+
+    .boton-anim-mod>p {
+        -webkit-transition: all .3s;
+        transition: all .3s;
+    }
+
+    .boton-anim-mod:hover>p {
+        -moz-transform: scale(0.7);
+        -webkit-transform: scale(0.7);
+        transform: translateY(0.7);
+    }
+
+    /*fin de las animaciones de los botones*/
+    /*clases botones principales*/
+    .img-button-help {
+        width: 100%;
+        height: inherit;
+        cursor: help;
+        justify-content: center;
+    }
+
+    .img-button-hor {
+        width: 100%;
+        height: inherit;
+        cursor: pointer;
+        justify-content: center;
+    }
+
+    .img-button {
+        width: 100%;
+        height: inherit;
+        cursor: pointer;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    /*fin clases botones principales*/
+}
+
+
+/*Large devices (desktops, 992px and up)*/
+
+@media (min-width: 992px) {
+    html {
+        font-size: 16px;
+        /* las animaciones*/
+    }
+}
+
+
+/*Extra large devices (large desktops, 1200px and up)*/
+
+@media (min-width: 1200px) {
+    html {
+        font-size: 19px;
+    }
+}
+
+
+/*************************************************
+**************  Fin Media Querys  ******************
+************************************************+*/
+
+
+/*Inician clases del grid*/
+
+.grid {
+    width: 100vw;
+}
+
+.grid-item-content {
+    background: none;
+    border-radius: 0px;
+    overflow: hidden;
+}
+
+.grid-item {
+    margin: 0px;
+    padding: 2px;
+}
+
+.modal-square {
+    border-radius: 0px;
+}
+
+.zindex-1 {
+    z-index: 1;
+}
+
+
+/*terminan clases grid*/
+
+
+/*links inhabilitados*/
+
+.disable {
+    cursor: not-allowed;
+    pointer-events: none;
+    opacity: 0.60;
+}
+
+
+/*./links inhabilitados*/
+
+
+/*************************************************
+**************  inicio Botones  ******************
+************************************************+*/
+
+
+/*para los grados*/
+
+.tercero {
+    background-color: #3e50b4;
+    border-radius: 0px;
+}
+
+.tercero-body {
+    background-color: #E3F2FD;
+}
+
+
+
+.segundo {
+    background-color: #8ac249;
+    border-radius: 0px;
+}
+
+.segundo-body {
+    background-color: #DCEDC8;
+}
+
+.primero {
+    background-color: #edb716;
+    border-radius: 0px;
+}
+
+.primero-body {
+    background-color: #FFE0B2;
+}
+
+/*fin de clases para los grados*/
+
+/*inician clases animación*/
+.animacion {
+    width: inherit;
+    height: inherit;
+    background-color: #000000;
+}
+
+/*terminan clases animación*/
+
+/*inician clases about*/
+.img-bios {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    background-color: #fec107;
+}
+
+/*terminan clases about*/
+.noticias {
+    border-radius: 0px;
+    background-color: rgb(111, 177, 114);
+}
+
+.inversionista {
+    background-color: #BA68C8;
+    border-radius: 0px;
+}
+
+.formatos {
+    background-color: #7C4DFF;
+    border-radius: 0px;
+}
+
+.about {
+    border-radius: 0px;
+    background-color: #009688;
+}
+
+.info {
+    border-radius: 0px;
+    background-color: #dd2266;
+}
+
+.sharkarthon {
+
+    background-color: #000000;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/*clases modals DCP*/
+
+/*clases botones modals*/
+.weeks-buttons {
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.weeks-buttons:hover {
+    -moz-transform: scale(0.9);
+    -webkit-transform: scale(0.9);
+    transform: translateY(0.9);
+}
+
+.weeks-buttons>a>p {
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.weeks-buttons:hover>a>p {
+    -moz-transform: scale(1.3);
+    -webkit-transform: scale(1.3);
+    transform: translateY(1.3);
+}
+
+/*./botones modals*/
+.w1 {
+    background-color: rgba(2, 119, 189, 0.50);
+    background-image: url(../assets/images/w1.png);
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: overlay;
+}
+
+.w2 {
+    background-color: rgba(255, 151, 44, 0.65);
+    background-image: url(../assets/images/w2.png);
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: overlay;
+}
+
+.w3 {
+    background-color: rgba(255, 151, 44, 0.65);
+    background-image: url(../assets/images/w3.png);
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: overlay;
+}
+
+.w4 {
+    background-color: rgba(255, 151, 44, 0.65);
+    background-image: url(../assets/images/w4.png);
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: overlay;
+}
+
+.w5 {
+    background-color: rgba(59, 183, 172, 0.65);
+    background-image: url(../assets/images/w5.png);
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: overlay;
+}
+
+.w6 {
+    background-color: rgba(59, 183, 172, 0.65);
+    background-image: url(../assets/images/w6.png);
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: overlay;
+}
+
+.w7 {
+    background-color: rgba(59, 183, 172, 0.65);
+    background-image: url(../assets/images/w7.png);
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: overlay;
+}
+
+.w8 {
+    background-color: rgba(255, 100, 152, 0.65);
+    background-image: url(../assets/images/w8.png);
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: overlay;
+}
+
+.w9 {
+    background-color: rgba(123, 89, 190, 0.67);
+    background-image: url(../assets/images/w9.png);
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: overlay;
+}
+
+/*./ botones modal*/
+.about-body {
+    background-color: #E0F2F1;
+}
+
+/*clases banco*/
+
+/*./clases banco*/
+/*clases formatos*/
+.formatos-header {
+    background-color: #7C4DFF;
+    color: #fff;
+}
+
+.formatos-body {
+    background-color: #c4cfed;
+    font-size: 0.7rem;
+}
+
+/*./clases formatos*/
+
+.icon-img-formats {
+    width: 3rem;
+    height: auto;
+}
+
+/* clases planetas sharkathon */
+.planet {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+}
+
+.planet>img {
+    width: 8rem;
+    height: 8rem;
+}
+
+.planet>p {
+    color: #3e50b4;
+    text-decoration: none;
+}
+
+.planet>p:hover {
+    color: #3e50b4;
+    text-decoration: none;
+}
+
+/* fin clases planetas sharkathon*/
